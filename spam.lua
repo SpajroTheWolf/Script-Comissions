@@ -15,7 +15,7 @@ Section1:NewSlider("Timeout", "Dalej nie domyslasz sie", 60, 0, function(s)
     print(czas)
 end)
 
-Section:NewButton("Start Spamming", "Dalej nie domyslasz sie", function()
+Section1:NewButton("Start Spamming", "Dalej nie domyslasz sie", function()
 while true do
 wait(czas)
 local args = {
